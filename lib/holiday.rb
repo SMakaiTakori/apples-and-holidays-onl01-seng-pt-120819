@@ -41,6 +41,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     holiday_name.each do |attribute, value|
      if attribute == :christmas || :new_years
       value.each do |:Balloons|
+      end  
     end   
    end   
   end
