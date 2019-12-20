@@ -37,14 +37,8 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     }
   }
   
-   holiday_hash.each do |season, holiday_name|
-    season.each do |attribute, value|
-     if attribute == :christmas || :new_years
-      value.each do |supply|
-        puts "#{supply}"
-      end  
-    end   
-   end   
+   holiday_hash[:winter].
+     
   end
   # holiday_hash[:winter][:christmas] << "Balloons"
   # holiday_hash[:winter][:new_years] << "Balloons"
